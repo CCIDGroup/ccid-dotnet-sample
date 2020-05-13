@@ -19,6 +19,7 @@ namespace demo
                 password = "mypassword" + BitConverter.ToInt32(randomBytes);
             }
             Console.WriteLine(password);
+            Console.Read();
 
         }
     }
